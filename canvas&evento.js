@@ -1,6 +1,7 @@
 // Aqui creamos 2 objetos para guardar los datos de las entrada text y button
 let texto = document.getElementById("text_lineas");
 let boton = document.getElementById("botoncito");
+//Aqui estamos diciendo que al hacer un click se va a ejecutar la funcion "dibujoPorClick"
 boton.addEventListener("click", dibujoPorClick);
 
 // Aqui creamos 1 objeto para guardar los datos del canvas y poder dibujar
